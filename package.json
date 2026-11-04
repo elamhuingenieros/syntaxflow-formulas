@@ -1,0 +1,14 @@
+{
+  "name": "syntaxflow-formulas",
+  "version": "1.0.0",
+  "description": "Trade formulas for glass, mirrors, timber, steel, masonry and roofs: the working behind the calculators at syntaxflow.io",
+  "type": "module",
+  "main": "formulas.js",
+  "exports": "./formulas.js",
+  "files": ["formulas.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["glass weight", "board feet", "steel weight", "rebar", "bricks per m2", "roof pitch", "construction", "calculator"],
+  "homepage": "https://syntaxflow.io/",
+  "license": "MIT",
+  "author": "SyntaxFlow (HU Ingenieros)"
+}
