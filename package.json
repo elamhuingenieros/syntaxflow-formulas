@@ -5,10 +5,32 @@
   "type": "module",
   "main": "formulas.js",
   "exports": "./formulas.js",
-  "files": ["formulas.js", "README.md", "LICENSE"],
-  "scripts": { "test": "node --test" },
-  "keywords": ["glass weight", "board feet", "steel weight", "rebar", "bricks per m2", "roof pitch", "construction", "calculator"],
+  "files": [
+    "formulas.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "glass weight",
+    "board feet",
+    "steel weight",
+    "rebar",
+    "bricks per m2",
+    "roof pitch",
+    "construction",
+    "calculator"
+  ],
   "homepage": "https://syntaxflow.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elamhuingenieros/syntaxflow-formulas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elamhuingenieros/syntaxflow-formulas/issues"
+  },
   "license": "MIT",
   "author": "SyntaxFlow (HU Ingenieros)"
 }
